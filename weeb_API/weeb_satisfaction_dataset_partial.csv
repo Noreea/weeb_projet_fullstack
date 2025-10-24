@@ -1,0 +1,401 @@
+prenom,nom,email,message,satisfaction
+Julie,Robert,julie.robert@email.com,"Erreurs fréquentes, très agaçant.",0
+Élise,Moreau,elise.moreau@email.com,Impossible d'accéder à mon compte.,0
+Bastien,Vincent,bastien.vincent@email.com,"Excellent outil, facile et fluide.",1
+Julien,Bertrand,julien.bertrand@email.com,Je trouve ça super bien fait.,1
+Romain,Lefebvre,romain.lefebvre@email.com,Excellente performance et facile d'utilisation.,1
+Pauline,Francois,pauline.francois@email.com,"Expérience ratée, dommage.",0
+Anaïs,Simon,anais.simon@email.com,"Toujours au top, bravo !",1
+Alice,Richard,alice.richard@email.com,"Chargement interminable, perte de temps.",0
+Clara,Simon,clara.simon@email.com,Super ergonomie et design soigné.,1
+Romain,Simon,romain.simon@email.com,Impossible d'accéder à mon compte.,0
+Bastien,Bernard,bastien.bernard@email.com,"Je suis déçu, rien ne marche correctement.",0
+Louis,Roux,louis.roux@email.com,Contenu répétitif et sans intérêt.,0
+Maxime,Lemoine,maxime.lemoine@email.com,"Application médiocre, plein de bugs.",0
+Anaïs,Lefebvre,anais.lefebvre@email.com,Application bien pensée et très complète.,1
+Julie,Leroy,julie.leroy@email.com,Je recommande sans hésiter.,1
+Antoine,Francois,antoine.francois@email.com,Très satisfait de la qualité du contenu.,1
+Bastien,Moreau,bastien.moreau@email.com,Bravo pour cette belle réalisation.,1
+Chloé,Petit,chloe.petit@email.com,"Application trop lente, impossible de charger les articles.",0
+Lina,Vincent,lina.vincent@email.com,"Service client très réactif, rien à redire.",1
+Nathan,Laurent,nathan.laurent@email.com,Excellente performance et facile d'utilisation.,1
+Nathan,David,nathan.david@email.com,"Satisfaction nulle, regret total.",0
+Julien,Garcia,julien.garcia@email.com,Je suis pleinement satisfait.,1
+Noémie,Thomas,noemie.thomas@email.com,"Fonctionne très bien, aucun souci.",1
+Chloé,Robert,chloe.robert@email.com,"Super utile et rapide, merci !",1
+Élise,Bertrand,elise.bertrand@email.com,Je trouve ça super bien fait.,1
+Noémie,David,noemie.david@email.com,Très mauvaise expérience utilisateur.,0
+Clara,Bernard,clara.bernard@email.com,"Je suis conquis, expérience au top.",1
+Enzo,Bernard,enzo.bernard@email.com,Contenu pertinent et bien présenté.,1
+Emma,Roux,emma.roux@email.com,Service défaillant et lent.,0
+Louis,Roux,louis.roux@email.com,"Résultat catastrophique, aucun intérêt.",0
+Chloé,Bernard,chloe.bernard@email.com,Expérience fluide et agréable.,1
+Manon,Francois,manon.francois@email.com,Super ergonomie et design soigné.,1
+Emma,Thomas,emma.thomas@email.com,Super contenu et interface claire.,1
+Pauline,Laurent,pauline.laurent@email.com,Temps d’attente trop long.,0
+Nathan,Martin,nathan.martin@email.com,Service impeccable et professionnel.,1
+Alice,Laurent,alice.laurent@email.com,Je recommande sans hésiter.,1
+Anaïs,Dubois,anais.dubois@email.com,"Je suis déçu, rien ne marche correctement.",0
+Théo,Roux,theo.roux@email.com,Problèmes techniques constants.,0
+Emma,Moreau,emma.moreau@email.com,"Aucune difficulté, tout est fluide.",1
+Nathan,Vincent,nathan.vincent@email.com,"J'adore cette application, fluide et pratique !",1
+Louis,Leroy,louis.leroy@email.com,Ne fonctionne pas correctement.,0
+Camille,Robert,camille.robert@email.com,Bravo pour cette belle réalisation.,1
+Julie,Moreau,julie.moreau@email.com,Interface intuitive et design agréable.,1
+Élise,Andre,elise.andre@email.com,"Application trop lente, impossible de charger les articles.",0
+Anaïs,Durand,anais.durand@email.com,"Fonctionne très bien, aucun souci.",1
+Emma,Bertrand,emma.bertrand@email.com,Je suis agréablement surpris par la qualité.,1
+Emma,Richard,emma.richard@email.com,"Application instable, se ferme sans raison.",0
+Élise,Morel,elise.morel@email.com,Excellente performance et facile d'utilisation.,1
+Bastien,Garcia,bastien.garcia@email.com,Application défaillante et instable.,0
+Margaux,Francois,margaux.francois@email.com,"Résultat catastrophique, aucun intérêt.",0
+Mathis,Thomas,mathis.thomas@email.com,Contenu répétitif et sans intérêt.,0
+Emma,Morel,emma.morel@email.com,Simple et rapide à utiliser.,1
+Alice,Moreau,alice.moreau@email.com,Aucune amélioration visible.,0
+Manon,Simon,manon.simon@email.com,Super contenu et interface claire.,1
+Anaïs,Moreau,anais.moreau@email.com,"Je recommande vivement, aucune erreur rencontrée.",1
+Lucas,Francois,lucas.francois@email.com,"Weeb plante souvent, c’est insupportable.",0
+Noémie,Moreau,noemie.moreau@email.com,Service défaillant et lent.,0
+Clara,Roux,clara.roux@email.com,"Aucune difficulté, tout est fluide.",1
+Maxime,Bernard,maxime.bernard@email.com,"Rien à redire, c’est impeccable.",1
+Romain,Andre,romain.andre@email.com,Parfait pour mon usage quotidien.,1
+Élise,Andre,elise.andre@email.com,Super ergonomie et design soigné.,1
+Sarah,Bernard,sarah.bernard@email.com,Je trouve ça super bien fait.,1
+Élise,Petit,elise.petit@email.com,"Application instable, se ferme sans raison.",0
+Tom,Bertrand,tom.bertrand@email.com,Expérience fluide et agréable.,1
+Antoine,Girard,antoine.girard@email.com,Temps d’attente trop long.,0
+Alice,Simon,alice.simon@email.com,"Fonctionne sans aucun bug, parfait !",1
+Anaïs,Richard,anais.richard@email.com,"Je suis déçu, rien ne marche correctement.",0
+Margaux,Thomas,margaux.thomas@email.com,Interface désagréable à utiliser.,0
+Lucas,Vincent,lucas.vincent@email.com,"Expérience ratée, dommage.",0
+Lucas,Durand,lucas.durand@email.com,Application bien pensée et très complète.,1
+Alice,Fournier,alice.fournier@email.com,Bravo pour cette belle réalisation.,1
+Sarah,Laurent,sarah.laurent@email.com,Contenu obsolète et décevant.,0
+Noémie,Morel,noemie.morel@email.com,"Application trop lente, impossible de charger les articles.",0
+Tom,Bernard,tom.bernard@email.com,Impossible de commenter les articles.,0
+Camille,Laurent,camille.laurent@email.com,Impossible de publier un commentaire.,0
+Lina,Moreau,lina.moreau@email.com,Expérience fluide et agréable.,1
+Léa,Martin,lea.martin@email.com,Impossible d'accéder à mon compte.,0
+Léa,Bertrand,lea.bertrand@email.com,Application défaillante et instable.,0
+Léa,Durand,lea.durand@email.com,Je suis pleinement satisfait.,1
+Lucas,Bertrand,lucas.bertrand@email.com,Super ergonomie et design soigné.,1
+Maxime,Moreau,maxime.moreau@email.com,Parfait pour mon usage quotidien.,1
+Léa,Bertrand,lea.bertrand@email.com,"Rien à redire, c’est impeccable.",1
+Lucas,Bertrand,lucas.bertrand@email.com,"Application trop lente, impossible de charger les articles.",0
+Romain,Bernard,romain.bernard@email.com,"Super utile et rapide, merci !",1
+Chloé,Moreau,chloe.moreau@email.com,"Je ne m’en passe plus, génial !",1
+Enzo,Durand,enzo.durand@email.com,"Publicité intrusive, trop de pubs !",0
+Julie,Bernard,julie.bernard@email.com,Contenu pertinent et bien présenté.,1
+Jules,Girard,jules.girard@email.com,"Beaucoup de bugs, expérience frustrante.",0
+Manon,Bernard,manon.bernard@email.com,"Excellent outil, facile et fluide.",1
+Hugo,Michel,hugo.michel@email.com,Application bien pensée et très complète.,1
+Léa,Garcia,lea.garcia@email.com,Application confuse et lente.,0
+Élise,Lefebvre,elise.lefebvre@email.com,Je suis pleinement satisfait.,1
+Antoine,Thomas,antoine.thomas@email.com,Super ergonomie et design soigné.,1
+Élise,Francois,elise.francois@email.com,Chargement rapide et utilisation agréable.,1
+Margaux,Durand,margaux.durand@email.com,Fonctionne mal sur mobile.,0
+Alice,Bernard,alice.bernard@email.com,"Fonctionne sans aucun bug, parfait !",1
+Noémie,Leroy,noemie.leroy@email.com,"Service client très réactif, rien à redire.",1
+Mathis,Robert,mathis.robert@email.com,"Service client inexistant, aucune réponse.",0
+Élise,Bernard,elise.bernard@email.com,"Fonctionne sans aucun bug, parfait !",1
+Romain,Lefebvre,romain.lefebvre@email.com,"Perte de données, inadmissible.",0
+Chloé,Bernard,chloe.bernard@email.com,"Super expérience, tout fonctionne parfaitement.",1
+Margaux,Lemoine,margaux.lemoine@email.com,Chargement rapide et utilisation agréable.,1
+Maxime,Vincent,maxime.vincent@email.com,"Expérience ratée, dommage.",0
+Tom,Fournier,tom.fournier@email.com,"Expérience ratée, dommage.",0
+Chloé,Michel,chloe.michel@email.com,Très pratique au quotidien.,1
+Tom,Girard,tom.girard@email.com,Simple et rapide à utiliser.,1
+Enzo,Vincent,enzo.vincent@email.com,"Beaucoup de bugs, expérience frustrante.",0
+Tom,Girard,tom.girard@email.com,"Super utile et rapide, merci !",1
+Sarah,Laurent,sarah.laurent@email.com,"Aucune difficulté, tout est fluide.",1
+Maxime,Bertrand,maxime.bertrand@email.com,Temps d’attente trop long.,0
+Léa,Lefebvre,lea.lefebvre@email.com,"Erreurs fréquentes, très agaçant.",0
+Romain,Girard,romain.girard@email.com,"Fonctionne très bien, aucun souci.",1
+Mathis,Garcia,mathis.garcia@email.com,Très pratique au quotidien.,1
+Sarah,Simon,sarah.simon@email.com,Impossible de partager un article.,0
+Clara,Lemoine,clara.lemoine@email.com,"Toujours au top, bravo !",1
+Louis,David,louis.david@email.com,"Expérience ratée, dommage.",0
+Lucas,Fournier,lucas.fournier@email.com,"Je suis conquis, expérience au top.",1
+Emma,Leroy,emma.leroy@email.com,Interface désagréable à utiliser.,0
+Sarah,Moreau,sarah.moreau@email.com,"Perte de données, inadmissible.",0
+Alice,Durand,alice.durand@email.com,"Fonctionne très bien, aucun souci.",1
+Julie,Richard,julie.richard@email.com,Application indispensable !,1
+Margaux,Roux,margaux.roux@email.com,Application fiable et performante.,1
+Pauline,Laurent,pauline.laurent@email.com,Impossible de publier un commentaire.,0
+Romain,Fournier,romain.fournier@email.com,Application simple et efficace.,1
+Louis,Michel,louis.michel@email.com,Application confuse et lente.,0
+Anaïs,Moreau,anais.moreau@email.com,"Aucune difficulté, tout est fluide.",1
+Bastien,Roux,bastien.roux@email.com,Service client lent et incompétent.,0
+Maxime,Dubois,maxime.dubois@email.com,"Publicité intrusive, trop de pubs !",0
+Léa,Roux,lea.roux@email.com,Parfait pour mon usage quotidien.,1
+Romain,Dubois,romain.dubois@email.com,"J'adore cette application, fluide et pratique !",1
+Emma,Michel,emma.michel@email.com,Interface intuitive et design agréable.,1
+Louis,Robert,louis.robert@email.com,Bravo pour cette belle réalisation.,1
+Romain,Laurent,romain.laurent@email.com,Je ne recommande pas cette application.,0
+Clara,Petit,clara.petit@email.com,"Chargement interminable, perte de temps.",0
+Bastien,Dubois,bastien.dubois@email.com,Très pratique au quotidien.,1
+Clara,Leroy,clara.leroy@email.com,Parfait pour mon usage quotidien.,1
+Julie,Lemoine,julie.lemoine@email.com,Bravo pour cette belle réalisation.,1
+Bastien,Thomas,bastien.thomas@email.com,Aucune amélioration visible.,0
+Bastien,Simon,bastien.simon@email.com,Contenu pertinent et bien présenté.,1
+Lina,Bertrand,lina.bertrand@email.com,"Application instable, se ferme sans raison.",0
+Alice,Fournier,alice.fournier@email.com,Je trouve ça super bien fait.,1
+Manon,Lemoine,manon.lemoine@email.com,Service rapide et efficace.,1
+Chloé,Thomas,chloe.thomas@email.com,"Application instable, se ferme sans raison.",0
+Nathan,Michel,nathan.michel@email.com,Je suis pleinement satisfait.,1
+Anaïs,Simon,anais.simon@email.com,"Interface claire et moderne, j'adore.",1
+Romain,Dubois,romain.dubois@email.com,Je regrette d’avoir téléchargé cette app.,0
+Maxime,Thomas,maxime.thomas@email.com,"Chargement interminable, perte de temps.",0
+Camille,Durand,camille.durand@email.com,"Service client très réactif, rien à redire.",1
+Manon,Morel,manon.morel@email.com,Super ergonomie et design soigné.,1
+Sarah,Garcia,sarah.garcia@email.com,"Application stable, jamais de plantage.",1
+Chloé,Richard,chloe.richard@email.com,Je ne recommande pas cette application.,0
+Clara,Roux,clara.roux@email.com,"Pas à la hauteur, très décevant.",0
+Élise,Bertrand,elise.bertrand@email.com,Temps d’attente trop long.,0
+Sarah,Durand,sarah.durand@email.com,Interface confuse et mal pensée.,0
+Chloé,Moreau,chloe.moreau@email.com,Parfait pour mon usage quotidien.,1
+Louis,Francois,louis.francois@email.com,Parfait pour mon usage quotidien.,1
+Anaïs,Vincent,anais.vincent@email.com,Interface désagréable à utiliser.,0
+Nathan,Martin,nathan.martin@email.com,Application indispensable !,1
+Élise,Martin,elise.martin@email.com,Service rapide et efficace.,1
+Enzo,Roux,enzo.roux@email.com,"Support client absent, inacceptable.",0
+Léa,Andre,lea.andre@email.com,Je regrette d’avoir téléchargé cette app.,0
+Jules,Laurent,jules.laurent@email.com,Super ergonomie et design soigné.,1
+Maxime,Morel,maxime.morel@email.com,Application fiable et performante.,1
+Chloé,Simon,chloe.simon@email.com,"Super utile et rapide, merci !",1
+Julien,Petit,julien.petit@email.com,"Résultat catastrophique, aucun intérêt.",0
+Noémie,Fournier,noemie.fournier@email.com,Très pratique au quotidien.,1
+Léa,Lemoine,lea.lemoine@email.com,"Aucune difficulté, tout est fluide.",1
+Manon,Andre,manon.andre@email.com,Contenu répétitif et sans intérêt.,0
+Antoine,Andre,antoine.andre@email.com,"Toujours au top, bravo !",1
+Manon,Robert,manon.robert@email.com,"Trop lent, je désinstalle.",0
+Chloé,Simon,chloe.simon@email.com,"Fonctionne très bien, aucun souci.",1
+Alice,Bernard,alice.bernard@email.com,Interface intuitive et design agréable.,1
+Alice,Andre,alice.andre@email.com,"Je suis déçu, rien ne marche correctement.",0
+Julien,Garcia,julien.garcia@email.com,Application bien pensée et très complète.,1
+Tom,Moreau,tom.moreau@email.com,Excellente performance et facile d'utilisation.,1
+Nathan,David,nathan.david@email.com,Très pratique au quotidien.,1
+Emma,Lemoine,emma.lemoine@email.com,"Je suis conquis, expérience au top.",1
+Anaïs,Laurent,anais.laurent@email.com,"Service client inexistant, aucune réponse.",0
+Théo,Durand,theo.durand@email.com,Je recommande sans hésiter.,1
+Hugo,Vincent,hugo.vincent@email.com,"Application stable, jamais de plantage.",1
+Margaux,Francois,margaux.francois@email.com,Application indispensable !,1
+Louis,Richard,louis.richard@email.com,Impossible d'accéder à mon compte.,0
+Anaïs,Lefebvre,anais.lefebvre@email.com,"Fonctionne sans aucun bug, parfait !",1
+Louis,Petit,louis.petit@email.com,Je suis pleinement satisfait.,1
+Anaïs,Vincent,anais.vincent@email.com,Application défaillante et instable.,0
+Antoine,Bernard,antoine.bernard@email.com,"Je ne m’en passe plus, génial !",1
+Chloé,Bertrand,chloe.bertrand@email.com,"Aucun souci technique, c’est parfait.",1
+Noémie,Martin,noemie.martin@email.com,Super ergonomie et design soigné.,1
+Élise,Fournier,elise.fournier@email.com,Contenu pertinent et bien présenté.,1
+Margaux,Bertrand,margaux.bertrand@email.com,"Application médiocre, plein de bugs.",0
+Margaux,Francois,margaux.francois@email.com,Ne fonctionne pas correctement.,0
+Tom,Lemoine,tom.lemoine@email.com,Service impeccable et professionnel.,1
+Tom,Morel,tom.morel@email.com,Impossible d'accéder à mon compte.,0
+Enzo,Dubois,enzo.dubois@email.com,"Très bon travail, continuez comme ça.",1
+Antoine,Lemoine,antoine.lemoine@email.com,Chargement rapide et utilisation agréable.,1
+Clara,Bertrand,clara.bertrand@email.com,"Chargement interminable, perte de temps.",0
+Sarah,Lefebvre,sarah.lefebvre@email.com,"Trop lent, je désinstalle.",0
+Anaïs,Laurent,anais.laurent@email.com,Application inutile et inefficace.,0
+Julien,Lemoine,julien.lemoine@email.com,"Aucun souci technique, c’est parfait.",1
+Noémie,Laurent,noemie.laurent@email.com,Problèmes techniques constants.,0
+Lina,David,lina.david@email.com,Application inutile et inefficace.,0
+Élise,Bertrand,elise.bertrand@email.com,Application inutile et inefficace.,0
+Lina,Martin,lina.martin@email.com,"Je suis conquis, expérience au top.",1
+Anaïs,Michel,anais.michel@email.com,"Application stable, jamais de plantage.",1
+Mathis,Laurent,mathis.laurent@email.com,Bravo pour cette belle réalisation.,1
+Julie,Lemoine,julie.lemoine@email.com,"Excellent outil, facile et fluide.",1
+Jules,Bertrand,jules.bertrand@email.com,"Je suis déçu, rien ne marche correctement.",0
+Jules,Andre,jules.andre@email.com,Impossible de partager un article.,0
+Hugo,Leroy,hugo.leroy@email.com,"Satisfaction nulle, regret total.",0
+Clara,Bertrand,clara.bertrand@email.com,Service rapide et efficace.,1
+Clara,Lemoine,clara.lemoine@email.com,Chargement rapide et utilisation agréable.,1
+Pauline,Dubois,pauline.dubois@email.com,"Fonctionne très bien, aucun souci.",1
+Emma,Petit,emma.petit@email.com,Excellente performance et facile d'utilisation.,1
+Enzo,Francois,enzo.francois@email.com,Application défaillante et instable.,0
+Jules,Garcia,jules.garcia@email.com,"Expérience ratée, dommage.",0
+Mathis,Thomas,mathis.thomas@email.com,"Expérience ratée, dommage.",0
+Nathan,Morel,nathan.morel@email.com,"Super expérience, tout fonctionne parfaitement.",1
+Bastien,Bernard,bastien.bernard@email.com,"Super utile et rapide, merci !",1
+Julien,Bernard,julien.bernard@email.com,Service impeccable et professionnel.,1
+Élise,Petit,elise.petit@email.com,Service impeccable et professionnel.,1
+Hugo,Lefebvre,hugo.lefebvre@email.com,"Weeb plante souvent, c’est insupportable.",0
+Camille,Dubois,camille.dubois@email.com,Je suis pleinement satisfait.,1
+Pauline,Morel,pauline.morel@email.com,"Perte de données, inadmissible.",0
+Julien,Durand,julien.durand@email.com,"Je recommande vivement, aucune erreur rencontrée.",1
+Louis,Vincent,louis.vincent@email.com,Simple et rapide à utiliser.,1
+Julien,Simon,julien.simon@email.com,Chargement rapide et utilisation agréable.,1
+Nathan,Moreau,nathan.moreau@email.com,"Support client absent, inacceptable.",0
+Enzo,Lefebvre,enzo.lefebvre@email.com,"Chargement interminable, perte de temps.",0
+Sarah,Moreau,sarah.moreau@email.com,Excellente performance et facile d'utilisation.,1
+Noémie,Bernard,noemie.bernard@email.com,Problèmes techniques constants.,0
+Théo,Bertrand,theo.bertrand@email.com,"Je suis déçu, rien ne marche correctement.",0
+Chloé,Bernard,chloe.bernard@email.com,Temps d’attente trop long.,0
+Bastien,Bernard,bastien.bernard@email.com,Application fiable et performante.,1
+Pauline,Vincent,pauline.vincent@email.com,Interface confuse et mal pensée.,0
+Maxime,Lemoine,maxime.lemoine@email.com,"Fonctionne sans aucun bug, parfait !",1
+Camille,Andre,camille.andre@email.com,Service défaillant et lent.,0
+Pauline,Robert,pauline.robert@email.com,Très pratique au quotidien.,1
+Emma,Durand,emma.durand@email.com,Service impeccable et professionnel.,1
+Léa,Garcia,lea.garcia@email.com,Service défaillant et lent.,0
+Alice,Richard,alice.richard@email.com,Bravo pour cette belle réalisation.,1
+Jules,Michel,jules.michel@email.com,Service impeccable et professionnel.,1
+Tom,Lefebvre,tom.lefebvre@email.com,Je suis pleinement satisfait.,1
+Romain,Martin,romain.martin@email.com,Simple et rapide à utiliser.,1
+Emma,Fournier,emma.fournier@email.com,Application indispensable !,1
+Enzo,Francois,enzo.francois@email.com,Application simple et efficace.,1
+Louis,Michel,louis.michel@email.com,Contenu pertinent et bien présenté.,1
+Mathis,Garcia,mathis.garcia@email.com,"Aucun souci technique, c’est parfait.",1
+Maxime,Simon,maxime.simon@email.com,"Perte de données, inadmissible.",0
+Théo,Roux,theo.roux@email.com,Service impeccable et professionnel.,1
+Lina,Lefebvre,lina.lefebvre@email.com,Service client lent et incompétent.,0
+Jules,Robert,jules.robert@email.com,Bravo pour cette belle réalisation.,1
+Maxime,Girard,maxime.girard@email.com,Très pratique au quotidien.,1
+Camille,Martin,camille.martin@email.com,Application bien pensée et très complète.,1
+Manon,Robert,manon.robert@email.com,Application indispensable !,1
+Bastien,Robert,bastien.robert@email.com,"Je suis déçu, rien ne marche correctement.",0
+Mathis,Garcia,mathis.garcia@email.com,"Je suis déçu, rien ne marche correctement.",0
+Antoine,Bertrand,antoine.bertrand@email.com,"Satisfaction nulle, regret total.",0
+Hugo,Vincent,hugo.vincent@email.com,"Je ne m’en passe plus, génial !",1
+Enzo,Moreau,enzo.moreau@email.com,"Excellent outil, facile et fluide.",1
+Hugo,Michel,hugo.michel@email.com,Fonctionne mal sur mobile.,0
+Bastien,Garcia,bastien.garcia@email.com,"Aucune difficulté, tout est fluide.",1
+Julie,Dubois,julie.dubois@email.com,Très mauvaise expérience utilisateur.,0
+Lucas,Dubois,lucas.dubois@email.com,Fonctionne mal sur mobile.,0
+Alice,Durand,alice.durand@email.com,Contenu obsolète et décevant.,0
+Sarah,Leroy,sarah.leroy@email.com,Impossible de publier un commentaire.,0
+Enzo,Dubois,enzo.dubois@email.com,"Fonctionne très bien, aucun souci.",1
+Lina,Martin,lina.martin@email.com,"Expérience ratée, dommage.",0
+Camille,Thomas,camille.thomas@email.com,Chargement rapide et utilisation agréable.,1
+Margaux,Morel,margaux.morel@email.com,Impossible de partager un article.,0
+Léa,Garcia,lea.garcia@email.com,Fonctionne mal sur mobile.,0
+Clara,Morel,clara.morel@email.com,"Publicité intrusive, trop de pubs !",0
+Léa,Morel,lea.morel@email.com,Contenu répétitif et sans intérêt.,0
+Léa,Girard,lea.girard@email.com,"Beaucoup de bugs, expérience frustrante.",0
+Léa,Laurent,lea.laurent@email.com,Super contenu et interface claire.,1
+Julien,Martin,julien.martin@email.com,"Satisfaction nulle, regret total.",0
+Julie,Garcia,julie.garcia@email.com,Impossible de partager un article.,0
+Bastien,Petit,bastien.petit@email.com,"Satisfaction nulle, regret total.",0
+Antoine,Michel,antoine.michel@email.com,"Trop lent, je désinstalle.",0
+Tom,Roux,tom.roux@email.com,"Beaucoup de bugs, expérience frustrante.",0
+Pauline,Lemoine,pauline.lemoine@email.com,Service impeccable et professionnel.,1
+Noémie,Bernard,noemie.bernard@email.com,"Excellent outil, facile et fluide.",1
+Léa,Bernard,lea.bernard@email.com,Problèmes techniques constants.,0
+Lina,Roux,lina.roux@email.com,"Toujours au top, bravo !",1
+Camille,Dubois,camille.dubois@email.com,"Je ne m’en passe plus, génial !",1
+Maxime,Moreau,maxime.moreau@email.com,Interface désagréable à utiliser.,0
+Alice,Bernard,alice.bernard@email.com,"Rien à redire, c’est impeccable.",1
+Clara,Bernard,clara.bernard@email.com,"Service client très réactif, rien à redire.",1
+Élise,David,elise.david@email.com,Application confuse et lente.,0
+Noémie,Lemoine,noemie.lemoine@email.com,Je regrette d’avoir téléchargé cette app.,0
+Mathis,Girard,mathis.girard@email.com,"Erreurs fréquentes, très agaçant.",0
+Julie,Roux,julie.roux@email.com,"Très bon travail, continuez comme ça.",1
+Margaux,David,margaux.david@email.com,"Trop lent, je désinstalle.",0
+Margaux,Garcia,margaux.garcia@email.com,Interface intuitive et design agréable.,1
+Alice,Petit,alice.petit@email.com,Application indispensable !,1
+Clara,Moreau,clara.moreau@email.com,Je recommande sans hésiter.,1
+Nathan,Martin,nathan.martin@email.com,Service défaillant et lent.,0
+Théo,Bertrand,theo.bertrand@email.com,"Super utile et rapide, merci !",1
+Maxime,Girard,maxime.girard@email.com,Interface intuitive et design agréable.,1
+Léa,Bernard,lea.bernard@email.com,Application bien pensée et très complète.,1
+Louis,Fournier,louis.fournier@email.com,"Erreurs fréquentes, très agaçant.",0
+Louis,Leroy,louis.leroy@email.com,Application confuse et lente.,0
+Louis,Simon,louis.simon@email.com,Chargement rapide et utilisation agréable.,1
+Lina,Durand,lina.durand@email.com,"Rien à redire, c’est impeccable.",1
+Lina,Richard,lina.richard@email.com,"Fonctionne très bien, aucun souci.",1
+Manon,Laurent,manon.laurent@email.com,"Pas à la hauteur, très décevant.",0
+Nathan,Lefebvre,nathan.lefebvre@email.com,"Service client très réactif, rien à redire.",1
+Pauline,Simon,pauline.simon@email.com,Je suis agréablement surpris par la qualité.,1
+Chloé,Fournier,chloe.fournier@email.com,Design dépassé et peu ergonomique.,0
+Noémie,David,noemie.david@email.com,Service défaillant et lent.,0
+Mathis,Andre,mathis.andre@email.com,Super ergonomie et design soigné.,1
+Margaux,Durand,margaux.durand@email.com,Application inutile et inefficace.,0
+Léa,Dubois,lea.dubois@email.com,"Trop lent, je désinstalle.",0
+Nathan,Laurent,nathan.laurent@email.com,Interface désagréable à utiliser.,0
+Noémie,Durand,noemie.durand@email.com,"Toujours la même erreur, frustrant.",0
+Sarah,Bernard,sarah.bernard@email.com,"Très bon travail, continuez comme ça.",1
+Margaux,Martin,margaux.martin@email.com,Très pratique au quotidien.,1
+Lina,Thomas,lina.thomas@email.com,"Application médiocre, plein de bugs.",0
+Manon,Girard,manon.girard@email.com,Excellente performance et facile d'utilisation.,1
+Julien,Dubois,julien.dubois@email.com,Super contenu et interface claire.,1
+Bastien,Lefebvre,bastien.lefebvre@email.com,Super ergonomie et design soigné.,1
+Margaux,Michel,margaux.michel@email.com,Impossible de partager un article.,0
+Théo,Fournier,theo.fournier@email.com,"Application instable, se ferme sans raison.",0
+Mathis,Martin,mathis.martin@email.com,"Excellent outil, facile et fluide.",1
+Sarah,Laurent,sarah.laurent@email.com,Je trouve ça super bien fait.,1
+Léa,Richard,lea.richard@email.com,Impossible d'accéder à mon compte.,0
+Camille,Girard,camille.girard@email.com,Application simple et efficace.,1
+Julie,Roux,julie.roux@email.com,Parfait pour mon usage quotidien.,1
+Pauline,Girard,pauline.girard@email.com,"Aucun souci technique, c’est parfait.",1
+Manon,Garcia,manon.garcia@email.com,Je suis pleinement satisfait.,1
+Romain,Durand,romain.durand@email.com,"Je recommande vivement, aucune erreur rencontrée.",1
+Léa,Lefebvre,lea.lefebvre@email.com,Problèmes techniques constants.,0
+Julie,Leroy,julie.leroy@email.com,Expérience fluide et agréable.,1
+Maxime,Lemoine,maxime.lemoine@email.com,Design dépassé et peu ergonomique.,0
+Julie,Thomas,julie.thomas@email.com,Impossible de partager un article.,0
+Anaïs,Petit,anais.petit@email.com,Contenu obsolète et décevant.,0
+Margaux,Petit,margaux.petit@email.com,Parfait pour mon usage quotidien.,1
+Emma,Andre,emma.andre@email.com,Fonctionne mal sur mobile.,0
+Enzo,Richard,enzo.richard@email.com,"Chargement interminable, perte de temps.",0
+Antoine,Durand,antoine.durand@email.com,Je suis agréablement surpris par la qualité.,1
+Nathan,Durand,nathan.durand@email.com,Je suis très content de cette app.,1
+Léa,Richard,lea.richard@email.com,Application fiable et performante.,1
+Lucas,Richard,lucas.richard@email.com,Impossible de commenter les articles.,0
+Clara,Thomas,clara.thomas@email.com,Je recommande sans hésiter.,1
+Anaïs,Roux,anais.roux@email.com,Application indispensable !,1
+Alice,Robert,alice.robert@email.com,"Perte de données, inadmissible.",0
+Clara,Robert,clara.robert@email.com,Très satisfait de la qualité du contenu.,1
+Hugo,Thomas,hugo.thomas@email.com,Je trouve ça super bien fait.,1
+Lina,Dubois,lina.dubois@email.com,Super contenu et interface claire.,1
+Romain,Francois,romain.francois@email.com,Impossible de commenter les articles.,0
+Julien,Leroy,julien.leroy@email.com,"Publicité intrusive, trop de pubs !",0
+Margaux,Leroy,margaux.leroy@email.com,"Rien à redire, c’est impeccable.",1
+Chloé,Durand,chloe.durand@email.com,"Application instable, se ferme sans raison.",0
+Julien,Girard,julien.girard@email.com,Impossible d'accéder à mon compte.,0
+Sarah,Garcia,sarah.garcia@email.com,"Très bon travail, continuez comme ça.",1
+Lina,Michel,lina.michel@email.com,"Publicité intrusive, trop de pubs !",0
+Louis,Michel,louis.michel@email.com,"Super expérience, tout fonctionne parfaitement.",1
+Maxime,Dubois,maxime.dubois@email.com,Très pratique au quotidien.,1
+Enzo,Morel,enzo.morel@email.com,Excellente performance et facile d'utilisation.,1
+Mathis,Bernard,mathis.bernard@email.com,"Fonctionne très bien, aucun souci.",1
+Camille,Lefebvre,camille.lefebvre@email.com,Contenu répétitif et sans intérêt.,0
+Manon,Garcia,manon.garcia@email.com,"Interface claire et moderne, j'adore.",1
+Antoine,Lefebvre,antoine.lefebvre@email.com,Contenu répétitif et sans intérêt.,0
+Julie,Andre,julie.andre@email.com,Contenu pertinent et bien présenté.,1
+Julie,Vincent,julie.vincent@email.com,Problèmes techniques constants.,0
+Maxime,Bertrand,maxime.bertrand@email.com,Super ergonomie et design soigné.,1
+Louis,Moreau,louis.moreau@email.com,Je suis très content de cette app.,1
+Antoine,Robert,antoine.robert@email.com,"Chargement interminable, perte de temps.",0
+Lucas,David,lucas.david@email.com,Contenu pertinent et bien présenté.,1
+Romain,Richard,romain.richard@email.com,Impossible de publier un commentaire.,0
+Julie,David,julie.david@email.com,Très pratique au quotidien.,1
+Anaïs,Bertrand,anais.bertrand@email.com,"Beaucoup de bugs, expérience frustrante.",0
+Anaïs,Morel,anais.morel@email.com,"Application médiocre, plein de bugs.",0
+Enzo,Girard,enzo.girard@email.com,Expérience fluide et agréable.,1
+Nathan,Roux,nathan.roux@email.com,"Beaucoup de bugs, expérience frustrante.",0
+Noémie,Robert,noemie.robert@email.com,Contenu obsolète et décevant.,0
+Hugo,Morel,hugo.morel@email.com,"Excellent outil, facile et fluide.",1
+Lucas,Robert,lucas.robert@email.com,"Excellent outil, facile et fluide.",1
+Louis,Moreau,louis.moreau@email.com,"Fonctionne très bien, aucun souci.",1
+Clara,Andre,clara.andre@email.com,Contenu obsolète et décevant.,0
+Théo,Martin,theo.martin@email.com,Je recommande sans hésiter.,1
+Maxime,Michel,maxime.michel@email.com,Bravo pour cette belle réalisation.,1
+Camille,Roux,camille.roux@email.com,Impossible de partager un article.,0
+Bastien,Morel,bastien.morel@email.com,"Fonctionne sans aucun bug, parfait !",1
+Julie,Dubois,julie.dubois@email.com,"Aucune difficulté, tout est fluide.",1
+Noémie,Richard,noemie.richard@email.com,"Support client absent, inacceptable.",0
+Clara,Lefebvre,clara.lefebvre@email.com,"Service client inexistant, aucune réponse.",0
+Hugo,Fournier,hugo.fournier@email.com,Simple et rapide à utiliser.,1
+Camille,Petit,camille.petit@email.com,"Je recommande vivement, aucune erreur rencontrée.",1
+Clara,Leroy,clara.leroy@email.com,Impossible de publier un commentaire.,0
+Manon,Durand,manon.durand@email.com,Fonctionne mal sur mobile.,0
+Sarah,David,sarah.david@email.com,"Beaucoup de bugs, expérience frustrante.",0
+Noémie,Laurent,noemie.laurent@email.com,Très pratique au quotidien.,1
+Clara,Simon,clara.simon@email.com,Très mauvaise expérience utilisateur.,0
+Bastien,Laurent,bastien.laurent@email.com,"Aucun souci technique, c’est parfait.",1
+Camille,Simon,camille.simon@email.com,Ne fonctionne pas correctement.,0
+Clara,Morel,clara.morel@email.com,Parfait pour mon usage quotidien.,1
+Julien,Leroy,julien.leroy@email.com,"Application médiocre, plein de bugs.",0
+Noémie,Richard,noemie.richard@email.com,Service impeccable et professionnel.,1
+Anaïs,Martin,anais.martin@email.com,Super contenu et interface claire.,1
+Théo,Petit,theo.petit@email.com,Expérience fluide et agréable.,1
