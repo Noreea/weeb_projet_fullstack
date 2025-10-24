@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Utilise Roboto comme police globale */
+:root {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0F172A;
+  color: #F8FAFC;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 110%;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+}
+/* Liens de base si jamais non stylisés par Tailwind */
+a {
+  color: inherit;
+  text-decoration: none;
+}
