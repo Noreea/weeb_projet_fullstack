@@ -30,6 +30,12 @@ function Header() {
             Articles
           </Link>
           <Link
+            to="/reviews"
+            className="hover:underline text-base text-white hover:text-purple_text transition-colors"
+          >
+            Reviews
+          </Link>
+          <Link
             to="/contact"
             className="hover:underline text-base text-white hover:text-purple_text transition-colors"
           >
@@ -83,6 +89,13 @@ function Header() {
             onClick={() => setMenuOpen(false)}
           >
             Articles
+          </Link>
+          <Link
+            to="/reviews"
+            className="block text-white hover:text-purple_text transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            Reviews
           </Link>
           <Link
             to="/contact"

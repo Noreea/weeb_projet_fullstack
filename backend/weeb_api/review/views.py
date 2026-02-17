@@ -15,20 +15,33 @@ from rest_framework.decorators import api_view
 class ReviewViewSet(viewsets.ModelViewSet):
     """
     ViewSet for handling contact form submissions.
-    Simplified approach - no user authentication required.
+    Automatically predicts satisfaction score using ML model.
     """
     queryset = Review.objects.all()
     serializer_class = ReviewSerializer
 
     def create(self, request, *args, **kwargs):
-        # Simple creation without user validation
+        # Validate data
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
-        self.perform_create(serializer)
+        
+        # Predict satisfaction from message
+        message = request.data.get('message', '')
+        predicted_satisfaction = None
+        
+        if model and message:
+            try:
+                predicted_satisfaction = int(model.predict([message])[0])
+            except Exception as e:
+                print(f"Prediction error: {e}")
+        
+        # Save review with prediction
+        review = serializer.save(predicted_satisfaction=predicted_satisfaction)
+        
         return Response({
             'success': True,
             'message': 'Review saved successfully.',
-            'results': serializer.data
+            'results': ReviewSerializer(review).data
         }, status=status.HTTP_201_CREATED)
         
 
