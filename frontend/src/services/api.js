@@ -64,3 +64,30 @@ export const reviewsAPI = {
     }
   }
 };
+
+// Service pour la prédiction de satisfaction
+export const predictionAPI = {
+  // Prédire la satisfaction à partir d'un message
+  predict: async (message) => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/predict/`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ features: message }),
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok) {
+        return data; // { prediction: ... }
+      } else {
+        throw new Error(data.error || 'Erreur lors de la prédiction');
+      }
+    } catch (error) {
+      console.error('Erreur API prediction:', error);
+      throw error;
+    }
+  }
+};

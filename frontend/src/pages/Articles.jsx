@@ -1,29 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
 import * as FramerMotion from 'framer-motion';
 import { articlesAPI } from '../services/api';
 
 const Articles = () => {
-  const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const fetchArticles = async () => {
-      try {
-        setLoading(true);
-        const data = await articlesAPI.getAllArticles();
-        setArticles(data);
-        setError(null);
-      } catch (err) {
-        setError(err.message);
-        console.error('Erreur lors du chargement des articles:', err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchArticles();
-  }, []);
+  const { data: articles = [], isLoading: loading, error } = useQuery({
+    queryKey: ['articles'],
+    queryFn: articlesAPI.getAllArticles,
+  });
 
   const formatDate = (dateString) => {
     return new Date(dateString).toLocaleDateString('fr-FR', {
@@ -63,7 +48,7 @@ const Articles = () => {
         >
           <div className="text-purple_text text-6xl mb-4">⚠️</div>
           <h2 className="text-3xl font-bold mb-4">Erreur de chargement</h2>
-          <p className="text-gray-300 mb-6">{error}</p>
+          <p className="text-gray-300 mb-6">{error.message}</p>
           <button
             onClick={() => window.location.reload()}
             className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg transition-colors"
@@ -148,9 +133,12 @@ const Articles = () => {
                   </div>
 
                   {/* Read More Button */}
-                  <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-4 rounded-lg transition-colors duration-200 font-medium group-hover:bg-purple_text">
+                  <Link
+                    to={`/articles/${article.id}`}
+                    className="block w-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-4 rounded-lg transition-colors duration-200 font-medium group-hover:bg-purple_text text-center"
+                  >
                     Lire la suite
-                  </button>
+                  </Link>
                 </div>
               </FramerMotion.motion.article>
             ))}

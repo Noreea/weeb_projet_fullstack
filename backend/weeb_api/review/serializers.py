@@ -4,10 +4,19 @@ from .models import Review
 
 class ReviewSerializer(serializers.ModelSerializer):
     """
-    Serializer for contact form data.
-    Direct mapping to Review model fields.
+    Review Serializer
     """
+
     class Meta:
         model = Review
-        fields = ['id', 'first_name', 'last_name', 'email', 'message', 'created_at']
-        read_only_fields = ['id', 'created_at']
+        fields = [
+            'id',
+            'first_name',
+            'last_name',
+            'email',
+            'phone',
+            'message',
+            'predicted_satisfaction',
+            'created_at',
+        ]
+        read_only_fields = ['id', 'predicted_satisfaction', 'created_at']
