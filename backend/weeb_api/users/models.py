@@ -22,25 +22,29 @@ class UserManager(BaseUserManager):
     """
 
     def create_user(self, email, first_name, last_name, password=None, **extra_fields):
-        """Create and return an normal user """
-        #If email is not present reaise an error
+        """Create and return a normal user"""
+        # If email is not present raise an error
         if not email:
             raise ValueError('email is required.') 
 
-        email = self.normalize_email(email) # normalize email
-        user = self.model(email=email, first_name=first_name, last_name=last_name, **extra_fields) # new User object (without password because it will be not hashed before saving in database)
+        email = self.normalize_email(email)
+        # Set is_active to False by default for new registrations (unless explicitly set)
+        extra_fields.setdefault('is_active', False)
+        
+        user = self.model(email=email, first_name=first_name, last_name=last_name, **extra_fields)
         
         if password:
-            user.set_password(password)  # Hashing pasword here
+            user.set_password(password)  # Hashing password here
         else:
             raise ValueError('Password is required.')
         user.save(using=self._db)
         return user
 
     def create_superuser(self, email, first_name='Admin', last_name='User', password=None, **extra_fields):
-        """create and return a superuser"""
+        """Create and return a superuser"""
         extra_fields.setdefault('is_staff', True)
         extra_fields.setdefault('is_superuser', True)
+        extra_fields.setdefault('is_active', True)  # Superusers are always active
 
         return self.create_user(email, first_name, last_name, password, **extra_fields)
 
@@ -62,11 +66,12 @@ class User(AbstractBaseUser, PermissionsMixin):
         password (str)
     """
     
-    first_name = models.CharField(max_length = 50)
-    last_name = models.CharField(max_length = 50)
-    email = models.EmailField(unique = True)
-    is_active = models.BooleanField(default=True)
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+    email = models.EmailField(unique=True)
+    is_active = models.BooleanField(default=False)  # Inactive by default, admin must activate
     is_staff = models.BooleanField(default=False)
+    date_joined = models.DateTimeField(auto_now_add=True)
     
     objects = UserManager()
 

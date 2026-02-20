@@ -24,18 +24,28 @@ class ArticleReadSerializer(serializers.ModelSerializer):
 
 #  WRITE Serializer 
 class ArticleWriteSerializer(serializers.ModelSerializer):
-    """_Article Serializer for writing (POST, PUT, PATCH)_"""
-    author_id = serializers.PrimaryKeyRelatedField(
-        queryset=User.objects.all(),
-        source='author',  # indique que l'ID mappe sur le champ 'author' de l'Article
-        write_only=True
-    )
+    """Article Serializer for writing (POST, PUT, PATCH)"""
     category_id = serializers.PrimaryKeyRelatedField(
         queryset=Category.objects.all(),
-        source='category',  # mappe sur le champ 'category'
+        source='category',
         write_only=True
     )
     
     class Meta:
         model = Article
-        fields = ['id', 'title', 'content', 'created_at', 'author_id', 'category_id']
+        fields = ['id', 'title', 'content', 'category_id']
+        read_only_fields = ['id']
+    
+    def validate_title(self, value):
+        """Validate title is not empty and has reasonable length"""
+        if not value or len(value.strip()) < 3:
+            raise serializers.ValidationError('Title must be at least 3 characters long.')
+        if len(value) > 255:
+            raise serializers.ValidationError('Title cannot exceed 255 characters.')
+        return value.strip()
+    
+    def validate_content(self, value):
+        """Validate content is not empty"""
+        if not value or len(value.strip()) < 10:
+            raise serializers.ValidationError('Content must be at least 10 characters long.')
+        return value.strip()

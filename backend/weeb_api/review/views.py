@@ -1,5 +1,6 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
+from rest_framework.permissions import AllowAny, IsAdminUser
 from .models import Review
 from .serializers import ReviewSerializer
 import os
@@ -16,9 +17,23 @@ class ReviewViewSet(viewsets.ModelViewSet):
     """
     ViewSet for handling contact form submissions.
     Automatically predicts satisfaction score using ML model.
+    Public can create reviews (contact form).
+    Only admins can list/view/delete reviews.
     """
     queryset = Review.objects.all()
     serializer_class = ReviewSerializer
+    pagination_class = None  # Disable pagination to show all reviews
+    
+    def get_permissions(self):
+        """
+        Allow anyone to create and list reviews (contact form + public display).
+        Only admins can view individual reviews or delete them.
+        """
+        if self.action in ['create', 'list']:
+            permission_classes = [AllowAny]
+        else:
+            permission_classes = [IsAdminUser]
+        return [permission() for permission in permission_classes]
 
     def create(self, request, *args, **kwargs):
         # Validate data

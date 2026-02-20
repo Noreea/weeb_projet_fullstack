@@ -1,25 +1,10 @@
 import { useQuery } from '@tanstack/react-query';
-
-const fetchReviews = async () => {
-  const response = await fetch('http://localhost:8000/review/');
-  
-  if (!response.ok) {
-    throw new Error('Erreur lors du chargement des reviews');
-  }
-  
-  const data = await response.json();
-  
-  // DRF returns array directly for list endpoint
-  if (Array.isArray(data)) {
-    return data;
-  }
-  throw new Error('Format de données invalide');
-};
+import { reviewsAPI } from '../services/api';
 
 function Reviews() {
   const { data: reviews = [], isLoading: loading, error } = useQuery({
     queryKey: ['reviews'],
-    queryFn: fetchReviews,
+    queryFn: reviewsAPI.getAllReviews,
   });
 
   const getSatisfactionLabel = (score) => {
