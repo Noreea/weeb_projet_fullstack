@@ -1,5 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { AuthProvider } from './context/AuthContext';
 import AppRoutes from './routes/AppRoutes';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -19,9 +20,11 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
-        <Header />
-        <AppRoutes />
-        <Footer />
+        <AuthProvider>
+          <Header />
+          <AppRoutes />
+          <Footer />
+        </AuthProvider>
       </BrowserRouter>
     </QueryClientProvider>
   );

@@ -19,7 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('users.urls')), # Urls set in app users
-    path('', include('blog.urls')),  # Urls set in blog app
-    path('', include('review.urls'))  # Urls set in review app
+    path('api/', include('users.urls')),   # Auth + User management
+    path('api/', include('blog.urls')),    # Blog endpoints
+    path('api/', include('review.urls'))   # Review endpoints
 ]
