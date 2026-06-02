@@ -11,10 +11,10 @@ cd ..
 python train_model.py
 cd weeb_api
 
-echo "=== Migrations Django ==="
-python manage.py migrate
-
 echo "=== Collecte des fichiers statiques ==="
 python manage.py collectstatic --no-input
+
+# Les migrations tournent au démarrage (start command) car l'URL interne
+# de la DB Render n'est pas disponible pendant la phase de build.
 
 echo "=== Build terminé ==="

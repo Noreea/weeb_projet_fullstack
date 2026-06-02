@@ -5,7 +5,7 @@ services:
     region: frankfurt
     rootDir: backend/weeb_api
     buildCommand: chmod +x build.sh && ./build.sh
-    startCommand: gunicorn weeb_api.wsgi:application --bind 0.0.0.0:$PORT
+    startCommand: python manage.py migrate && gunicorn weeb_api.wsgi:application --bind 0.0.0.0:$PORT
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: weeb_api.settings.production
