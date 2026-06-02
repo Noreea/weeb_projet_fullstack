@@ -39,9 +39,9 @@ class ArticleWriteSerializer(serializers.ModelSerializer):
     def validate_title(self, value):
         """Validate title is not empty and has reasonable length"""
         if not value or len(value.strip()) < 3:
-            raise serializers.ValidationError('Title must be at least 3 characters long.')
+            raise serializers.ValidationError('Le titre doit contenir au moins 3 caractères.')
         if len(value) > 255:
-            raise serializers.ValidationError('Title cannot exceed 255 characters.')
+            raise serializers.ValidationError('Le titre ne peut pas dépasser 255 caractères.')
         return value.strip()
     
     def validate_content(self, value):

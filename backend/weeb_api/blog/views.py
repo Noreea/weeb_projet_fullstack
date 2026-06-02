@@ -60,12 +60,6 @@ class BlogViewSet(viewsets.ModelViewSet):
         """GET /api/articles/ - List all articles"""
         queryset = self.get_queryset()
         
-        if not queryset.exists():
-            return Response({
-                'success': False,
-                'results': 'No articles found.'
-            }, status=status.HTTP_404_NOT_FOUND)
-        
         serializer = self.get_serializer(queryset, many=True)
         return Response({
             'success': True,
@@ -97,7 +91,7 @@ class BlogViewSet(viewsets.ModelViewSet):
         if not category_id:
             return Response({
                 'success': False,
-                'message': 'category_id is required.'
+                'message': 'Veuillez sélectionner une catégorie.'
             }, status=status.HTTP_400_BAD_REQUEST)
         
         # Check if category exists
@@ -106,7 +100,7 @@ class BlogViewSet(viewsets.ModelViewSet):
         except Category.DoesNotExist:
             return Response({
                 'success': False,
-                'message': 'This category does not exist.'
+                'message': 'Cette catégorie n\'existe pas.'
             }, status=status.HTTP_404_NOT_FOUND)
         
         # Create article with current user as author

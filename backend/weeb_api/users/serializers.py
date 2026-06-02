@@ -85,7 +85,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         # Check if user exists and is active
         if user and not user.is_active:
             raise serializers.ValidationError(
-                'Your account is inactive. Please contact an administrator for activation.'
+                'Votre compte est inactif. Veuillez contacter un administrateur pour l\'activation.'
             )
         
         # Call parent validate to get tokens

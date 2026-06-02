@@ -22,14 +22,8 @@ function Header() {
           <Link to="/" className="text-3xl font-bold">weeb</Link>
         </div>
 
-        {/* Desktop Navigation */}
+        {/* Navigation Desktop */}
         <nav className="hidden sm:flex gap-6 text-sm font-medium items-center">
-          <Link
-            to="/"
-            className="hover:underline text-base text-white hover:text-purple_text transition-colors"
-          >
-            About Us
-          </Link>
           <Link
             to="/articles"
             className="hover:underline text-base text-white hover:text-purple_text transition-colors"
@@ -41,7 +35,7 @@ function Header() {
               to="/articles/create"
               className="hover:underline text-base text-white hover:text-purple_text transition-colors"
             >
-              Create Article
+              Créer un article
             </Link>
           )}
           {isAuthenticated && isActive && isAdmin && (
@@ -49,7 +43,7 @@ function Header() {
               to="/reviews"
               className="hover:underline text-base text-white hover:text-purple_text transition-colors"
             >
-              Reviews
+              Avis
             </Link>
           )}
           <Link
@@ -68,42 +62,34 @@ function Header() {
                   rel="noopener noreferrer"
                   className="hover:underline text-base font-medium text-purple_text transition-colors"
                 >
-                  Admin Panel
+                  Panneau admin
                 </a>
               )}
               <div className="flex items-center gap-2">
                 <span className="text-white text-sm">
                   {user?.first_name} {user?.last_name}
-                  {!isActive && <span className="text-yellow-500 ml-2">(Pending)</span>}
+                  {!isActive && <span className="text-yellow-500 ml-2">(En attente)</span>}
                 </span>
                 <button
                   onClick={handleLogout}
                   className="text-base text-white hover:text-red-400 transition-colors"
                 >
-                  Logout
+                  Déconnexion
                 </button>
               </div>
             </>
           ) : (
-            <>
-              <Link
-                to="/login"
-                className="hover:underline text-base font-medium text-white hover:text-purple_text transition-colors"
-              >
-                Log In
-              </Link>
-              <Link to="/register">
-                <Button className="px-6">Join Now</Button>
-              </Link>
-            </>
+            <Link to="/login">
+              <Button className="px-6">Connexion</Button>
+            </Link>
           )}
         </nav>
 
-        {/* Mobile Menu Button */}
+        {/* Bouton menu mobile */}
         <button
           className="sm:hidden bg-purple-600 hover:bg-purple-700 text-white p-2 rounded-lg transition-colors duration-200"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle mobile menu"
+          aria-label="Ouvrir le menu"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -122,16 +108,9 @@ function Header() {
         </button>
       </div>
 
-        {/* Mobile Dropdown */}
+        {/* Menu déroulant mobile */}
       {menuOpen && (
         <div className="sm:hidden bg-gray_header px-6 py-4 space-y-2 text-sm font-medium shadow-md rounded-b-xl">
-          <Link
-            to="/"
-            className="block text-white hover:text-purple_text transition-colors"
-            onClick={() => setMenuOpen(false)}
-          >
-            About Us
-          </Link>
           <Link
             to="/articles"
             className="block text-white hover:text-purple_text transition-colors"
@@ -145,7 +124,7 @@ function Header() {
               className="block text-white hover:text-purple_text transition-colors"
               onClick={() => setMenuOpen(false)}
             >
-              Create Article
+              Créer un article
             </Link>
           )}
           {isAuthenticated && isActive && isAdmin && (
@@ -154,7 +133,7 @@ function Header() {
               className="block text-white hover:text-purple_text transition-colors"
               onClick={() => setMenuOpen(false)}
             >
-              Reviews
+              Avis
             </Link>
           )}
           <Link
@@ -175,13 +154,13 @@ function Header() {
                   className="block text-purple_text hover:underline transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
-                  Admin Panel
+                  Panneau admin
                 </a>
               )}
               <div className="pt-2 border-t border-purple-500/30">
                 <p className="text-white text-sm mb-2">
                   {user?.first_name} {user?.last_name}
-                  {!isActive && <span className="text-yellow-500 ml-2">(Pending)</span>}
+                  {!isActive && <span className="text-yellow-500 ml-2">(En attente)</span>}
                 </p>
                 <button
                   onClick={() => {
@@ -190,23 +169,14 @@ function Header() {
                   }}
                   className="w-full text-left text-white hover:text-red-400 transition-colors"
                 >
-                  Logout
+                  Déconnexion
                 </button>
               </div>
             </>
           ) : (
-            <>
-              <Link
-                to="/login"
-                className="block text-white hover:text-purple_text transition-colors"
-                onClick={() => setMenuOpen(false)}
-              >
-                Log In
-              </Link>
-              <Link to="/register" onClick={() => setMenuOpen(false)}>
-                <Button className="w-full mt-2">Join Now</Button>
-              </Link>
-            </>
+            <Link to="/login" onClick={() => setMenuOpen(false)}>
+              <Button className="w-full mt-2">Connexion</Button>
+            </Link>
           )}
         </div>
       )}

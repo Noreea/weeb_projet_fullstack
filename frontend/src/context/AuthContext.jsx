@@ -56,10 +56,11 @@ export const AuthProvider = ({ children }) => {
       return { success: true, user: data.user };
     } catch (error) {
       console.error('Login error:', error);
-      return { 
-        success: false, 
-        error: error.response?.data?.detail || 'Login failed. Please check your credentials.' 
-      };
+      const data = error.response?.data;
+      const message = data?.detail
+        || (Array.isArray(data?.non_field_errors) ? data.non_field_errors[0] : null)
+        || 'Connexion échouée. Veuillez vérifier vos identifiants.';
+      return { success: false, error: message };
     }
   };
 
@@ -72,7 +73,7 @@ export const AuthProvider = ({ children }) => {
       const errorMessage = error.response?.data?.email?.[0] 
         || error.response?.data?.password?.[0]
         || error.response?.data?.detail
-        || 'Registration failed. Please try again.';
+        || 'Inscription échouée. Veuillez réessayer.';
       return { success: false, error: errorMessage };
     }
   };

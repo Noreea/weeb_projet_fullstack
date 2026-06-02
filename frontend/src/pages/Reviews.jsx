@@ -11,7 +11,7 @@ function Reviews() {
     if (score === null || score === undefined) return 'Non évalué';
     if (score === 0) return 'Insatisfait';
     if (score === 1) return 'Satisfait';
-    return `Score: ${score}`;
+    return `Score : ${score}`;
   };
 
   const getSatisfactionColor = (score) => {
@@ -25,7 +25,7 @@ function Reviews() {
     return (
       <main className="text-white px-6 py-16">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-xl">Chargement des reviews...</p>
+          <p className="text-xl">Chargement des avis...</p>
         </div>
       </main>
     );
@@ -45,7 +45,7 @@ function Reviews() {
     <main className="text-white px-6 py-16">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold text-center mb-4">
-          Reviews & Prédictions
+          Avis & Prédictions
         </h1>
         <p className="text-center text-gray-300 mb-12">
           Visualisation des avis clients et de leur niveau de satisfaction prédit
@@ -54,7 +54,7 @@ function Reviews() {
         {/* Stats summary */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           <div className="bg-purple-900/30 border border-purple-500 rounded-xl p-6 text-center">
-            <p className="text-gray-400 text-sm mb-2">Total Reviews</p>
+            <p className="text-gray-400 text-sm mb-2">Total des avis</p>
             <p className="text-3xl font-bold">{reviews.length}</p>
           </div>
           <div className="bg-purple-900/30 border border-purple-500 rounded-xl p-6 text-center">
@@ -75,7 +75,7 @@ function Reviews() {
         <div className="space-y-4">
           {reviews.length === 0 ? (
             <div className="text-center text-gray-400 py-12">
-              Aucune review pour le moment
+              Aucun avis pour le moment
             </div>
           ) : (
             reviews.map((review) => (

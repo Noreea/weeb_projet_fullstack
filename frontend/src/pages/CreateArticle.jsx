@@ -25,7 +25,7 @@ function CreateArticle() {
         setCategories(data);
       } catch (error) {
         console.error('Error fetching categories:', error);
-        setError('Failed to load categories');
+        setError('Impossible de charger les catégories.');
       }
     };
 
@@ -44,7 +44,7 @@ function CreateArticle() {
     e.preventDefault();
     
     if (!isActive) {
-      setError('Your account must be activated before you can create articles');
+      setError('Votre compte doit être activé avant de pouvoir créer des articles.');
       return;
     }
 
@@ -66,7 +66,7 @@ function CreateArticle() {
       }
     } catch (error) {
       console.error('Error creating article:', error);
-      setError(error.response?.data?.message || 'Failed to create article. Please try again.');
+      setError(error.response?.data?.message || 'Impossible de créer l\'article. Veuillez réessayer.');
     } finally {
       setLoading(false);
     }
@@ -77,12 +77,12 @@ function CreateArticle() {
       <main className="min-h-screen flex items-center justify-center px-4 py-16">
         <div className="w-full max-w-md text-center space-y-6">
           <div className="text-6xl">✅</div>
-          <h1 className="text-4xl font-bold text-white">Article Created!</h1>
+          <h1 className="text-4xl font-bold text-white">Article publié !</h1>
           <p className="text-gray-300">
-            Your article has been published successfully.
+            Votre article a été publié avec succès.
           </p>
           <p className="text-sm text-gray-400">
-            Redirecting to articles page...
+            Redirection vers la liste des articles...
           </p>
         </div>
       </main>
@@ -93,10 +93,10 @@ function CreateArticle() {
     <main className="text-white px-6 py-16">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold text-center mb-4">
-          Create New <span className="text-purple_text">Article</span>
+          Nouvel <span className="text-purple_text">article</span>
         </h1>
         <p className="text-center text-gray-300 mb-12">
-          Share your knowledge with the community
+          Partagez vos connaissances avec la communauté
         </p>
 
         {error && (
@@ -107,21 +107,21 @@ function CreateArticle() {
 
         {!isActive && (
           <div className="bg-yellow-500/10 border border-yellow-500 text-yellow-500 px-4 py-3 rounded-lg mb-6">
-            ⚠️ Your account is pending activation. You won't be able to publish articles until an administrator activates your account.
+            ⚠️ Votre compte est en attente d'activation. Vous ne pourrez pas publier d'articles tant qu'un administrateur n'aura pas activé votre compte.
           </div>
         )}
 
         <form onSubmit={handleSubmit} className="space-y-6 bg-gray-800/50 border border-purple-500/20 rounded-xl p-8">
           <div>
             <label htmlFor="title" className="block text-lg font-medium mb-2">
-              Article Title
+              Titre de l'article
             </label>
             <input
               id="title"
               name="title"
               type="text"
               required
-              placeholder="Enter article title"
+              placeholder="Saisissez le titre de l'article"
               value={formData.title}
               onChange={handleChange}
               className="w-full bg-gray-900/50 border border-purple-500/30 rounded-lg p-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple_text focus:border-transparent"
@@ -130,7 +130,7 @@ function CreateArticle() {
 
           <div>
             <label htmlFor="category_id" className="block text-lg font-medium mb-2">
-              Category
+              Catégorie
             </label>
             <select
               id="category_id"
@@ -140,7 +140,7 @@ function CreateArticle() {
               onChange={handleChange}
               className="w-full bg-gray-900/50 border border-purple-500/30 rounded-lg p-3 text-white focus:outline-none focus:ring-2 focus:ring-purple_text focus:border-transparent"
             >
-              <option value="">Select a category</option>
+              <option value="">Sélectionner une catégorie</option>
               {categories.map(category => (
                 <option key={category.id} value={category.id}>
                   {category.name}
@@ -151,14 +151,14 @@ function CreateArticle() {
 
           <div>
             <label htmlFor="content" className="block text-lg font-medium mb-2">
-              Content
+              Contenu
             </label>
             <textarea
               id="content"
               name="content"
               required
               rows="12"
-              placeholder="Write your article content here..."
+              placeholder="Rédigez le contenu de votre article ici..."
               value={formData.content}
               onChange={handleChange}
               className="w-full bg-gray-900/50 border border-purple-500/30 rounded-lg p-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple_text focus:border-transparent resize-none"
@@ -171,14 +171,14 @@ function CreateArticle() {
               disabled={loading || !isActive}
               className="flex-1"
             >
-              {loading ? 'Publishing...' : 'Publish Article'}
+              {loading ? 'Publication...' : 'Publier l\'article'}
             </Button>
             <button
               type="button"
               onClick={() => navigate('/articles')}
               className="flex-1 bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-colors duration-200 font-medium"
             >
-              Cancel
+              Annuler
             </button>
           </div>
         </form>

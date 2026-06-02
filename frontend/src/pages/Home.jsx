@@ -1,5 +1,6 @@
 import React from "react";
 import * as FramerMotion from 'framer-motion';
+import { Link } from "react-router-dom";
 import Button from "../components/Button";
 
 function Home() {
@@ -25,10 +26,9 @@ function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <FramerMotion.motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button>Découvrir les articles</Button>
-              </FramerMotion.motion.div>
-              <FramerMotion.motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button>S’abonner à la newsletter</Button>
+                <Link to="/articles">
+                  <Button>Découvrir les articles</Button>
+                </Link>
               </FramerMotion.motion.div>
             </div>
           </div>

@@ -45,10 +45,10 @@ function LoginNew() {
       <div className="w-full max-w-md space-y-8">
         <div className="text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-            Welcome Back
+            Bon retour
           </h1>
           <p className="text-gray-300">
-            Log in to your account to continue
+            Connectez-vous à votre compte pour continuer
           </p>
         </div>
 
@@ -60,13 +60,13 @@ function LoginNew() {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label htmlFor="email" className="sr-only">Email</label>
+            <label htmlFor="email" className="sr-only">Adresse e-mail</label>
             <input
               id="email"
               name="email"
               type="email"
               required
-              placeholder="Email"
+              placeholder="Adresse e-mail"
               value={formData.email}
               onChange={handleChange}
               className="w-full border-b border-purple_text bg-transparent p-2 text-2xl placeholder-purple_text text-white focus:outline-none focus:ring-1 focus:ring-purple_text transition-colors text-center"
@@ -74,13 +74,13 @@ function LoginNew() {
           </div>
 
           <div>
-            <label htmlFor="password" className="sr-only">Password</label>
+            <label htmlFor="password" className="sr-only">Mot de passe</label>
             <input
               id="password"
               name="password"
               type="password"
               required
-              placeholder="Password"
+              placeholder="Mot de passe"
               value={formData.password}
               onChange={handleChange}
               className="w-full border-b border-purple_text bg-transparent p-2 text-2xl placeholder-purple_text text-white focus:outline-none focus:ring-1 focus:ring-purple_text transition-colors text-center"
@@ -92,7 +92,7 @@ function LoginNew() {
             disabled={loading}
             className="w-full mt-8"
           >
-            {loading ? 'Logging in...' : 'Log In'}
+            {loading ? 'Connexion en cours...' : 'Se connecter'}
           </Button>
 
           <div className="text-center mt-4">
@@ -100,17 +100,17 @@ function LoginNew() {
               href="#"
               className="text-white hover:underline transition-colors text-sm"
             >
-              Forgot password?
+              Mot de passe oublié ?
             </a>
           </div>
 
           <div className="text-center text-white">
-            Don't have an account?{' '}
+            Pas encore de compte ?{' '}
             <Link
               to="/register"
               className="underline underline-offset-4 font-bold hover:text-purple_text transition-colors"
             >
-              Create one
+              En créer un
             </Link>
           </div>
         </form>
