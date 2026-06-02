@@ -119,12 +119,12 @@ function Contact() {
           {/* Email */}
           <div>
             <label htmlFor="email" className="sr-only">
-              Email
+              Adresse e-mail
             </label>
             <input
               id="email"
               type="email"
-              placeholder="Email"
+              placeholder="Adresse e-mail"
               required
               className="w-full border-b border-purple-400 bg-transparent p-2 text-2xl focus:outline-none focus:ring-1 focus:ring-purple_text focus:border-purple_text transition-colors placeholder-purple_text text-center"
               value={form.email}

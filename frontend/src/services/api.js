@@ -145,8 +145,11 @@ export const authAPI = {
     const response = await axios.post(`${API_BASE_URL}/auth/token/refresh/`, {
       refresh: refreshToken
     });
-    // Store new access token in memory
     window.__ACCESS_TOKEN__ = response.data.access;
+    // Save rotated refresh token back to localStorage
+    if (response.data.refresh) {
+      localStorage.setItem('refresh_token', response.data.refresh);
+    }
     return response.data;
   },
   
