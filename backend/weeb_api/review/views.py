@@ -84,10 +84,11 @@ def predict(request):
 
             features = body["features"]  
 
-            prediction = model.predict([features])[0]
-            
+            proba = model.predict_proba([features])[0]
+            # Seuil abaissé à 0.4 : si proba insatisfaction >= 0.4 → négatif
+            prediction = 0 if proba[0] >= 0.4 else 1
 
-            return JsonResponse({"prediction": int(prediction)})
+            return JsonResponse({"prediction": int(prediction), "confidence": round(float(max(proba)), 2)})
 
         except Exception as e:
 
