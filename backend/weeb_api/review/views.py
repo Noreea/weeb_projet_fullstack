@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 
 
 
@@ -73,7 +73,8 @@ except Exception as e:
 
 
 
-@api_view(['POST']) 
+@api_view(['POST'])
+@permission_classes([AllowAny])
 def predict(request):
 
     if request.method == "POST":
