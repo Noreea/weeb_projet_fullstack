@@ -8,6 +8,7 @@ import numpy as np
 
 df = pd.read_csv('./weeb_satisfaction_dataset_partial.csv')
 df = df[['message', 'satisfaction']].dropna()
+df = df.drop_duplicates(subset='message').reset_index(drop=True)
 
 x = df['message']
 y = df['satisfaction']
